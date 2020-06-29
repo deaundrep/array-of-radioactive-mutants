@@ -31,7 +31,9 @@ function oddOrEven(num){
 }
 
 function changeNextThreeToValue(start, arr, value){
-
+for (let i = start; i < start + 3; i++){
+  arr[i] = value;
+  }
 }
 
 
